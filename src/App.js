@@ -1,22 +1,22 @@
-import logo from './logo.svg';
+import { useEffect } from 'react';
 import './App.css';
 
 function App() {
+  useEffect(() => {
+    console.clear();
+    
+    console.log("МЕНЮ");
+    console.log("1. Ввести два числа");
+    console.log("2. Выполнить сложение");
+    console.log("3. Выполнить вычитание");
+    console.log("4. Выполнить деление");
+    console.log("5. Возвести число в степень");
+  }, []);
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" className="App-logo" alt="logo" />
       </header>
     </div>
   );
