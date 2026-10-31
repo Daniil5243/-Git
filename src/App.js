@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   useEffect(() => {
     console.clear();
-    console.log("МЕНЮ");
+    console.log("МЕНЮ-");
     console.log("1. Ввести два числа");
     console.log("2. Выполнить сложение");
     console.log("3. Выполнить вычитание");
