@@ -4,7 +4,10 @@ import './App.css';
 function App() {
   useEffect(() => {
     console.clear();
+feature-add
     console.log("МЕНЮ");
+    console.log("МЕНЮ-");
+ final
     console.log("1. Ввести два числа");
     console.log("2. Выполнить сложение");
     console.log("3. Выполнить вычитание");
@@ -13,6 +16,10 @@ function App() {
 
     const num1 = 10;
     const num2 = 5;
+feature-add
+
+    console.log(`Введенные числа: ${num1} и ${num2}`);
+ final
     console.log(`Сложение: ${num1 + num2}`);
   }, []);
 
