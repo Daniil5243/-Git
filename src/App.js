@@ -4,11 +4,7 @@ import './App.css';
 function App() {
   useEffect(() => {
     console.clear();
- feature-pow
-    console.log("МЕНЮ ");
-
-    console.log("МЕНЮ");
- main
+    console.log("--- МЕНЮ ---");
     console.log("1. Ввести два числа");
     console.log("2. Выполнить сложение");
     console.log("3. Выполнить вычитание");
@@ -17,10 +13,8 @@ function App() {
 
     const num1 = 10;
     const num2 = 5;
- feature-pow
-    console.log(`Степень: ${Math.pow(num1, num2)}`);
     console.log(`Введенные числа: ${num1} и ${num2}`);
- main
+    console.log(`Деление: ${num1 / num2}`);
   }, []);
 
   return (
