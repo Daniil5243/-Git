@@ -4,13 +4,16 @@ import './App.css';
 function App() {
   useEffect(() => {
     console.clear();
-    
-    console.log("МЕНЮ");
+    console.log("МЕНЮ ");
     console.log("1. Ввести два числа");
     console.log("2. Выполнить сложение");
     console.log("3. Выполнить вычитание");
     console.log("4. Выполнить деление");
     console.log("5. Возвести число в степень");
+
+    const num1 = 10;
+    const num2 = 5;
+    console.log(`Степень: ${Math.pow(num1, num2)}`);
   }, []);
 
   return (
